@@ -11,8 +11,6 @@
 					font-weight: 400;
 					text-align: center;
 					line-height: 80px;
-					align-content: right;
-
 				}
 				h2 span {
 					background: rgba(0,0,0,0.5);
@@ -23,35 +21,22 @@
 				h3{
 					width: 100%;
 					margin: auto;
-					height: 70%;
-					text-align: right; 
+					height: 100%;
+					background-color: #FCE1A2;
+					text-align: center; 
 					font-weight: 400;
 					font-size: 32px;
-					align-content: right;
 				}
 				#overlay {
 					position: fixed;
 					display: block;
 					width: 100%;
-					height: 9%;
+					height: 10%;
 					top: 0;
 					left: 0;
 					right: 0;
 					bottom: 0;
-					background-color: rgba(0,0,0,0.25);
-					z-index: 2;
-					cursor: pointer;
-				}
-				#overlay2 {
-					position: static;
-					display: table;
-					width: 25%;
-					height: 23%;
-					top: 45%;
-					left: 38%;
-					right: 0;
-					bottom: 0;
-					background-color: rgba(0,0,0,0.25);
+					background-color: rgba(0,0,0,0.5);
 					z-index: 2;
 					cursor: pointer;
 				}
@@ -61,19 +46,18 @@
 					font-family: Arial, Helvetica, sans-serif;
 				}	
 				.bgstuff{
-					background-image: url("images/Palace.jpg");
+					background-image: url("images/POCO.jpg");
 					background-color: #cccccc;
-					height: 800px;
-					transition: 100px;
+					height: 710px;
 					background-position: center;
 					background-repeat: no-repeat;
-					background-size: 100% 100%;
+					background-size: cover;
 					position: relative;
 				}
 				.bg-text {
 					text-align: center;
 					position: absolute;
-					top: 50%;
+					top: 70%;
 					left: 50%;
 					transform: translate(-50%, -50%);
 					color: yellow;
@@ -82,40 +66,33 @@
 <center>
 <body>
 	<div id="overlay "></div>
-	<section id="overlay" class="wb-overlay modal-content overlay-def wb-bar-t">
-		<header>
-			<h3 class="modal-title">
-			<a href="https://github.com/ArturDanilenko"  target="_blank"><img src="images/github-icon.svg" width=50px" translate="55px" height="50px" border="0" color="yellow" alt="Link to this page"></a>
-			<a href="https://www.linkedin.com/in/artur-danilenko-217780178/" target="_blank"><img src="images/Linkedin_icon.svg" width=50px" height="50px" border="0" alt="Link to this page"></a> </h3>
-		</header>
-	</section>
 	<!--<img src="images/kitty.jpg" width=700px" height="550px">
 	<video width = "725" height="550" controls = "controls">
 		<source src = "images/Reflow.mp4" type "video/mp4">
 	</video>-->
 	<div class = "bgstuff">
-		<div id="overlay2 ">
-				<section id="overlay2" class="wb-overlay modal-content overlay-def wb-bar-t">
-				<header>
-				<h3 class="modal-title"></h3>
-				</header>
-			</section>
 		<div class="bg-text">
-			<h2>Artur Danilenko</h2>
-			</div>	
+			<h2><span>Artur Danilenko</span></h2>	
 		</div>
 	</div>
-
 	<hr>THIS SHOULD BE CENTERED HOPEFULLY ^.^<hr>
 	<marquee><h4>ThiS IS some weird message</h4></marquee>	
 
 	<br><br><br><br>
+	<div id="overlay" onclick="off()"></div>
 	<div style = "padding:20px">
 		<h4>Overlay</h4>
 		<p> adding overlay effect with half opacity and full width</p>
 		<button onclick="on()">Turn on overlay effect  </button>
 	</div>
 
+	<a href ="#overlay" aria-contols="overlay" class="overlay-lnk"role="button">Top bar</a></p>
+
+	<section id="overlay" class="wb-overlay modal-content overlay-def wb-bar-t">
+	<header>
+		<h2 class="modal-title">Top bar</h2>
+	</header>
+</section>
 
 	<script>
 		function on(){
@@ -130,7 +107,7 @@
 	<a href="https://www.facebook.com/artur.danilenko"><img src="images/kitty.jpg" width=200px" height="170px" border="0" alt="Link to this page"></a> 
 
 	<hr>
-	<a href="https://github.com/ArturDanilenko"  target="_blank"><img src="images/github-icon.svg" width=50px" height="50px" border="0" alt="Link to this page"></a>
+	<a href="https://github.com/ArturDanilenko"><img src="images/github-icon.svg" width=50px" height="50px" border="0" alt="Link to this page"></a>
 	<a href="https://www.linkedin.com/in/artur-danilenko-217780178/" target="_blank"><img src="images/Linkedin_icon.svg" width=50px" height="50px" border="0" alt="Link to this page"></a>
 
 	<hr>
