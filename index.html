@@ -9,8 +9,11 @@
 
 		<!-- Fonts -->
 		
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+
+
 
 	</head>	
 	
@@ -18,9 +21,10 @@
 
 <center>
 <body>
+	
 	<!-- Navbar -->
 	<div class="nav-container">	
-		<nav class="navbar navbar-expand-sm fixed-top navbar-light" style="background-color: #e3f2fd;" id="navbar">
+		<nav class="navbar navbar-expand-sm fixed-top navbar-light" id="navbar">
 			<!--<a href="#" class="navbar-brand">Link</a>-->
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
 				<span class="navbar-toggler-icon"></span>
@@ -31,13 +35,13 @@
 						<a href="#" class="nav-link"> Home</a> 
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link"> About</a> 
+						<a href="#about" class="nav-link shrink" > About</a> 
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link"> Projects</a> 
+						<a href="#projects" class="nav-link"> Projects</a> 
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link"> Contacts</a> 
+						<a href="#contacts" class="nav-link"> Contacts</a> 
 					</li>
 				</ul>
 				<ul class="navbar-nav ml-auto">
@@ -54,76 +58,76 @@
 
 	<!-- Name, Shadow and Main Background -->
 
-	<div class = "bgstuff text-center">
-		<div class ="container titlehead">
+	<div class = "bgstuff">
+		<div class ="titlehead">
 			<h2>Artur</h2>
 			<h2>Danilenko</h2>
 		</div>
 	</div>
+	<div class="main-background">
 
-	<!-- About -->
+		<!-- About -->
 
-	<h1>About</h1><hr size="500" noshade>
+		<div class="about-bg">
+			<h1 id="about">About</h1><hr size="500" noshade>
 
-	<li>Aspiring electrical engineer  -  currently completing my third year in UBC</li>
-	<li>Passionate about electronics and programming  -  Breadboard and chips ~~~ </li>
-	<li>Enthusiastic learner - I always enjoy working on something new or challenging </li>
+			<li>Aspiring electrical engineer  -  currently completing my third year in UBC</li>
+			<li>Passionate about electronics and programming  -  Breadboard and chips ~~~ </li>
+			<li>Enthusiastic learner - I always enjoy working on something new or challenging </li>
 
-	<hr><p id="highlights"> Here are some of the things I can do: </p>
+			<hr><p id="highlights"> Here are some of the things I can do: </p>
+			
+			<div class="about">
+				  <div class="d1">
+				  	<ul style="font-weight: 700; font-size: 26px;">Software</ul>
+				  	<p style="font-size:24px;">&bull; C &bull; C++ &bull; Java &bull; Python <br>&bull; JavaScript &bull; Bootstrap</p>
+				  </div>
+				  <div class="d1">
+				  	<ul style="font-weight: 700; font-size: 26px;">Electrical</ul>
+				  	<p style="font-size:24px;">&bull; Verilog &bull; ARM/8051 Assembly &bull; FPGA's <br>&bull; Circuit Designing/Analysis </p>
+				  </div>
+			</div> <br><br>
+		</div>
+		
+		<!-- Projects --> 
 
-	<div class="about">
-		  <div class="d1">
-		  	<ul>Software</ul>
-		  	<p style="font-size:24px;">&bull; C &bull; C++ &bull; Java &bull; Python <br>&bull; HTML &bull; CSS &bull; JavaScript &bull; Bootstrap</p>
-		  </div>
-		  <div class="d1">
-		  	<ul>Electrical</ul>
-		  	<p style="font-size:24px;">&bull; Verilog &bull; ARM/8051 Assembly &bull; FPGA's <br>&bull; Circuit Designing/Analysis </p>
-		  </div>
-	</div> <br><br>
+		<div class="projects" id="projects">
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		 </div>
 
-	<!-- Projects --> 
+		<a href="https://www.facebook.com/artur.danilenko" id="contacts"><img src="images/kitty.jpg" width=200px" height="170px" border="0" alt="Link to this page"></a> 
 
-	<div class="projects">
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	 </div>
+		<hr>
+		<a href="https://github.com/ArturDanilenko"  target="_blank"><img src="images/github-icon.svg" width=50px" height="50px" border="0" alt="Link to this page"></a>
+		<a href="https://www.linkedin.com/in/artur-danilenko-217780178/" target="_blank"><img src="images/Linkedin_icon.svg" width=50px" height="50px" border="0" alt="Link to this page"></a>
 
+		<hr>
 
-	
-	<marquee><h4>ThiS IS some weird message</h4></marquee>	
-
-	<br><br><br><br>
-	<div style = "padding:20px">
-		<h4>Overlay</h4>
-		<p> adding overlay effect with half opacity and full width</p>
-		<button onclick="on()">Turn on overlay effect  </button>
+		<hr>Copyright &copy 2019 Artur Danilenko<hr>
 	</div>
-
-
-<!--	<script>
-		function on(){
-			document.getElementById("overlay").style.display = "block";
-
-		}
-		function off(){
-			document.getElementById("overlay").style.display = "none";
-		}
-	</script> -->
-
-	<a href="https://www.facebook.com/artur.danilenko"><img src="images/kitty.jpg" width=200px" height="170px" border="0" alt="Link to this page"></a> 
-
-	<hr>
-	<a href="https://github.com/ArturDanilenko"  target="_blank"><img src="images/github-icon.svg" width=50px" height="50px" border="0" alt="Link to this page"></a>
-	<a href="https://www.linkedin.com/in/artur-danilenko-217780178/" target="_blank"><img src="images/Linkedin_icon.svg" width=50px" height="50px" border="0" alt="Link to this page"></a>
-
-	<hr>
-
-	<hr>Copyright &copy 2019 Artur Danilenko<hr>
 	<!--<body style = "background: url(images/POCO.jpg); background-size 100%;">
 -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+		<script id="rendered-js">function checkScroll(){
+		    var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+
+		    if($(window).scrollTop() > startY){
+		        $('.navbar').addClass("scrolled");
+		    }else{
+		        $('.navbar').removeClass("scrolled");
+		    }
+			}
+
+			if($('.navbar').length > 0){
+			    $(window).on("scroll load resize", function(){
+			        checkScroll();
+			    });
+			}
+		</script>
+
 </body>
 </center>
 </html>
