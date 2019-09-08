@@ -191,7 +191,7 @@ li {
   	left: 20%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 400px){
   .main-background {
     padding-left: 0;
     padding-right: 0;
@@ -211,5 +211,27 @@ li {
   }
   #bot{
   	left: 8%;
+  }
+}
+@media screen and (max-width: 400px){
+  .main-background {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .about-bg{
+  	margin: 0px;
+  }
+  .titlehead{
+  	width: 100%
+  }
+  .titlehead h2{
+  	font-size: 60px;
+  	letter-spacing: 1px;
+  }
+  #top{
+
+  }
+  #bot{
+  	left: 0%;
   }
 }
