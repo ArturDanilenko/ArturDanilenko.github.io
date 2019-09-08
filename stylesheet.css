@@ -52,7 +52,6 @@ body{
 	background-size: cover;
 	background-color: #fff;
 	color: #FFF;
-	padding: 40px 40px;
 	letter-spacing: 3px;
 	margin-bottom: 0;
 }
@@ -73,22 +72,20 @@ body{
 .titlehead{
 	background-color: rgba(20,20,20,0.75);
 	position: relative;
-	width: 650px;
+	width: 600px;
 	height: 300px;
-	top: 250px;
+	top: 40%;
+	margin: 0;
 }
 
 .titlehead h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 100px;
 	font-weight: 700;
-	padding: 30px;
-	margin: 30px;
+	position: absolute;
 	letter-spacing: 5px;
-	text-align: center;
 	color: white;
 	height: 100px;
-	width: 600px;
 }
 #navbar {
 	display: flex;
@@ -96,6 +93,12 @@ body{
 	background-color: rgba(227,242,253,0.5);
 	transform: translateY(0%);
 	transition: transform .5s cubic-bezier(.4,0,.2,1);
+}
+#top{
+	left: 25%;
+}
+#bot{
+	left: 5%;
 }
 #navbar > * {
   padding: 1rem;
@@ -155,11 +158,37 @@ li {
     padding-left: 100;
     padding-right: 100;
   }
+  .titlehead{
+  	width: 65%
+  }
+  .titlehead h2{
+  	font-size: 90px;
+  	letter-spacing: 2px;
+  }
+  #top{
+
+  }
+  #bot{
+  	left: 8%;
+  }
 }
 @media screen and (max-width: 800px) and (min-width: 600px) {
   .main-background {
     padding-left: 50;
     padding-right: 50;
+  }
+  .titlehead{
+  	width: 85%
+  }
+  .titlehead h2{
+  	font-size: 75px;
+  	letter-spacing: 1px;
+  }
+  #top{
+
+  }
+  #bot{
+  	left: 20%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -169,5 +198,18 @@ li {
   }
   .about-bg{
   	margin: 0px;
+  }
+  .titlehead{
+  	width: 100%
+  }
+  .titlehead h2{
+  	font-size: 60px;
+  	letter-spacing: 1px;
+  }
+  #top{
+
+  }
+  #bot{
+  	left: 15%;
   }
 }
