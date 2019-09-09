@@ -153,6 +153,29 @@ li {
 	padding: 10px;
 	margin: 60px;
 }
+.project-grid{
+	font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px 300px;
+}
+.p1{
+	text-align: center;
+}
+.p2{
+	
+}
+.p3{
+	
+}
+.p4{
+	
+}
+
+<!-- Media Query -->
+
 @media screen and (max-width: 1000px) and (min-width: 800px) {
   .main-background {
     padding-left: 100;
@@ -212,8 +235,14 @@ li {
   #bot{
   	left: 8%;
   }
+  #navbar{
+  	background-color: rgba(227,242,253,1);
+  }
 }
 @media screen and (max-width: 400px){
+	#navbar{
+  	background-color: rgba(227,242,253,1);
+  }
   .main-background {
     padding-left: 0;
     padding-right: 0;
@@ -232,6 +261,6 @@ li {
 
   }
   #bot{
-  	left: 0%;
+  	left: 5%;
   }
 }
