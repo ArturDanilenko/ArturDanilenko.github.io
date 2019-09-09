@@ -62,6 +62,7 @@ body{
 	padding-top: 20px;
 	padding-right: 250px;
 	padding-left:250px;
+	margin: 0;
 }
 
 .bgstuff.container {
@@ -160,19 +161,22 @@ li {
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 300px 300px;
+    grid-template-rows: 400px 400px;
 }
 .p1{
 	text-align: center;
 }
 .p2{
-	
+	text-align: center;
 }
 .p3{
-	
+	text-align: center;
 }
 .p4{
-	
+	text-align: center;
+}
+.contact-bg{
+	background-color: #FCE1A2;
 }
 
 <!-- Media Query -->
