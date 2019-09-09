@@ -152,9 +152,8 @@ li {
 	background: rgba(240,240,240,0.65);
 	box-shadow: 3px;
 	border-radius: 3px;
-	padding-top: 10px;
-	margin-top: 60px;
-	margin-bottom: 60px;
+	padding: 5px;
+	margin: 60px;
 }
 .project-grid{
 	font-size: 20px;
@@ -206,6 +205,9 @@ li {
     padding-left: 50;
     padding-right: 50;
   }
+  .projects{
+  	margin: 0px;
+  }
   .titlehead{
   	width: 85%
   }
@@ -226,6 +228,9 @@ li {
     padding-right: 0;
   }
   .about-bg{
+  	margin: 0px;
+  }
+  .projects{
   	margin: 0px;
   }
   .titlehead{
@@ -262,6 +267,9 @@ li {
   }
   .titlehead{
   	width: 100%
+  }
+  .projects{
+  	margin: 0px;
   }
   .titlehead h2{
   	font-size: 60px;
