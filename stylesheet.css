@@ -120,6 +120,7 @@ body{
     background: black;     
 }
 
+
 li {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
@@ -229,6 +230,10 @@ li {
   	font-size: 60px;
   	letter-spacing: 1px;
   }
+  .navbar-collapse
+    {
+        background-color:#FA0;
+    }
   #top{
 
   }
@@ -257,9 +262,10 @@ li {
   	font-size: 60px;
   	letter-spacing: 1px;
   }
-  #top{
-
-  }
+  .navbar-collapse
+    {
+        background-color:#FA0;
+    }
   #bot{
   	left: 5%;
   }
