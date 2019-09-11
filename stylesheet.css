@@ -60,8 +60,8 @@ body{
 	background-image: url("images/Lines.jpg");
 	background-repeat: repeat;
 	padding-top: 20px;
-	padding-right: 250px;
-	padding-left:250px;
+	padding-right: 12%;
+	padding-left: 12%;
 	margin: 0;
 }
 
@@ -135,7 +135,7 @@ li {
     grid-template-columns: 50% 50%;
 }
 .about-bg{
-	background: rgba(240,240,240,0.65);
+	background: rgba(240,240,240,0.85);
 	box-shadow: 3px;
 	border-radius: 3px;
 	padding: 5px;
@@ -149,7 +149,7 @@ li {
 	font-size: 22px;
 }
 .projects{
-	background: rgba(240,240,240,0.65);
+	background: rgba(240,240,240,0.85);
 	box-shadow: 3px;
 	border-radius: 3px;
 	padding: 5px;
@@ -180,14 +180,16 @@ li {
 }
 
 <!-- Media Query -->
-
-@media screen and (max-width: 1000px) and (min-width: 800px) {
+@media screen and (max-width: 999px) and (min-width: 800px) {
   .main-background {
     padding-left: 100;
     padding-right: 100;
   }
   .titlehead{
   	width: 65%
+  }
+  .project-grid{
+  	grid-template-rows: 700px 700px;
   }
   .titlehead h2{
   	font-size: 90px;
@@ -207,6 +209,9 @@ li {
   }
   .projects{
   	margin: 0px;
+  }
+  .project-grid{
+  	grid-template-rows: 600px 600px;
   }
   .titlehead{
   	width: 85%
@@ -232,6 +237,9 @@ li {
   }
   .projects{
   	margin: 0px;
+  }
+  .project-grid{
+  	grid-template-rows: 600px 600px;
   }
   .titlehead{
   	width: 100%
@@ -270,6 +278,9 @@ li {
   }
   .projects{
   	margin: 0px;
+  }
+  .project-grid{
+  	grid-template-rows: 600px 600px;
   }
   .titlehead h2{
   	font-size: 60px;

@@ -95,26 +95,29 @@
 			<h1 id="projects">Projects</h1><hr size="500" noshade>
 			<div class="project-grid">
 				<div  class="p1">
-					<p>Project 1 Template</p>
-					<a href="https://www.facebook.com/artur.danilenko" id="contacts"><img src="images/kitty.jpg" width=80%" height="70%" border="0" alt="Link to this page"></a> 
+					<a href="https://www.facebook.com/artur.danilenko" alt="Link to project 1" style="color: black"> Coin-picking Robot</a>
+					<p style="font-size: 14px">Objective: Given an enclosed area, robot is supposed to autonomously search for the coins and collect them once encountered.</p>
+					<p style="font-size: 14px">Implementation: I was responsible for the robot's software. Since we were working with a new microcontroller, one of the most challenging parts involved finding appropriate registers in order to set up IO pins with a desired functionality which involved going through extremely large datasheets. Secondly, interupts frequency was very sensitive to the amount of instructions processed upon being triggered, hence required very detailed and thorough optimization in order to function accurately. </p>
 				</div>
 				<div  class="p2">
-					<p>Project 2 Template</p>
-					<a href="https://www.facebook.com/artur.danilenko" id="contacts"><img src="images/kitty.jpg" width=80%" height="70%" border="0" alt="Link to this page"></a> 
+					<a href="https://www.facebook.com/artur.danilenko" alt="Link to project 2" style="color: black"> Reflow Oven Controller</a>
+					<p style="font-size: 14px">Objective: Program and assemle a controller which runs an oven through reflow soldering process with an ability to alter the temperature and time setting for each state.</p>
+					<p style="font-size: 14px">Implementation: Being assigned to software team, my task was to implement a specific state machine which controls oven using PWM module. The challenging aspect happened to be scheduling of the states and synchronization of multiple timers. The problem was solved by using a singular timer and making multiple sub-timers based on the main one. Once the project guidelines were met, code had to be heavily optimized as assembly structure didn't allow to be easily managed while the main goal isn't met. </p>
 				</div>
 				<div  class="p3">
-					<p>Project 3 Template</p>
-					<a href="https://www.facebook.com/artur.danilenko" id="contacts"><img src="images/kitty.jpg" width=80%" height="70%" border="0" alt="Link to this page"></a> 
+					<a href="https://www.facebook.com/artur.danilenko" alt="Link to project 3" style="color: black"> Line-following Robot</a>
+					<p style="font-size: 14px">Objective: Provided with a track, robot had to quickly follow a black line while appropriately reacting to obstacles.</p>
+					<p style="font-size: 14px">Implementation: Robot had five grayscale sensors that could accurately identify shade of gray that robot is passing if it's adequetly callibrated. This happened to be an issue as the sensitivity would fluctuate depending on the dirt level of the surface and battery life. To overcome this, we designed an algorithm which allowed robot to autocallibrate itself if placed on a trial track. This was accomplished by taking measurements of his actual readings and finding a mid-point between where he sensed a line and the rest of the environment.</p>
 				</div>
 				<div  class="p4">
-					<p>Project 4 Template</p>
-					<a href="https://www.facebook.com/artur.danilenko" id="contacts"><img src="images/kitty.jpg" width=80%" height="70%" border="0" alt="Link to this page"></a> 
-				</div>
-			</div>
-		</div><br><br><br>
+					<a href="#" alt="Link to project 3" style="color: black"> Coming Soon</a>
+					<p style="font-size: 14px"></p>
+					<p style="font-size: 14px"></p>		
+				</div>	
+			</div></div><br><br><br>
 	</div>
 			<hr>
-			<a href="https://github.com/ArturDanilenko"  target="_blank"><img src="images/github-icon.svg" width=50px" height="50px" border="0" alt="Link to this page"></a>
+			<a href="https://github.com/ArturDanilenko"  target="_blank" id="contacts"><img src="images/github-icon.svg" width=50px" height="50px" border="0" alt="Link to this page"></a>
 			<a href="https://www.linkedin.com/in/artur-danilenko-217780178/" target="_blank"><img src="images/Linkedin_icon.svg" width=50px" height="50px" border="0" alt="Link to this page"></a>
 
 			<hr>
