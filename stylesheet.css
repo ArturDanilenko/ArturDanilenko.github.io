@@ -6,11 +6,8 @@ h1{
 	margin: 18px;
 }
 h2{
-	color: yellow	;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 54px;
-	font-weight: 900;
-	text-align: center;
+	font-weight: 400;
 	line-height: 110px;
 	align-content: right;
 
@@ -45,7 +42,7 @@ body{
 }
 	
 .bgstuff{
-	background-image: url("images/Bridge.jpg");
+	background-image: url("images/bg-dark.jpg");
 	background-repeat: no-repeat;
 	height: 100%;
 	width: 100%;
@@ -70,23 +67,41 @@ body{
 	
 }
 
-.titlehead{
-	background-color: rgba(20,20,20,0.75);
+.greetbox{
+	background-color: rgba(20,20,20,0);
 	position: relative;
-	width: 600px;
+	width: 50%;
 	height: 300px;
-	top: 40%;
+	text-align: left;
+	float: left;
+	top: 30%;
+	left: 4%;
+	margin: 0;
+}
+.navigator{
+	position: relative;
+	width: 45%;
+	float: right;
+	height: 300px;
+	text-align: center;
+	top: 30%;
 	margin: 0;
 }
 
-.titlehead h2 {
+.greetbox h2 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 100px;
-	font-weight: 700;
+	font-weight: 400;
 	position: absolute;
 	letter-spacing: 5px;
 	color: white;
 	height: 100px;
+}
+.navigator h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	position: absolute;
+	letter-spacing: 5px;
+	color: white;
 }
 #navbar {
 	display: flex;
@@ -95,17 +110,30 @@ body{
 	transform: translateY(0%);
 	transition: transform .5s cubic-bezier(.4,0,.2,1);
 }
-#top{
-	left: 25%;
+#hi{
+	font-size:100px;
 }
-#bot{
-	left: 5%;
+#iam{
+	font-size:80px;
+	top: 40%;
+}
+#code{
+	font-size:60px;
+	top:80%;
+}
+#about_nav{
+	top: 20%;
+	font-size: 80px;
+}
+#project_nav{
+	top: 60%;
+	font-size: 80px;
 }
 #navbar > * {
   padding: 1rem;
 }
 .nav-link{
-	color: black !important;
+	color: rgb(0, 0, 0) !important;
 }
 .nav-container:hover #navbar{
 	transform: translateY(0) !important;
@@ -185,13 +213,13 @@ li {
     padding-left: 100;
     padding-right: 100;
   }
-  .titlehead{
+  .greetbox{
   	width: 65%
   }
   .project-grid{
   	grid-template-rows: 700px 700px;
   }
-  .titlehead h2{
+  .greetbox h2{
   	font-size: 90px;
   	letter-spacing: 2px;
   }
@@ -213,18 +241,12 @@ li {
   .project-grid{
   	grid-template-rows: 600px 600px;
   }
-  .titlehead{
+  .greetbox{
   	width: 85%
   }
-  .titlehead h2{
+  .greetbox h2{
   	font-size: 75px;
   	letter-spacing: 1px;
-  }
-  #top{
-
-  }
-  #bot{
-  	left: 20%;
   }
 }
 @media screen and (max-width: 600px) and (min-width: 400px){
@@ -241,10 +263,10 @@ li {
   .project-grid{
   	grid-template-rows: 600px 600px;
   }
-  .titlehead{
+  .greetbox{
   	width: 100%
   }
-  .titlehead h2{
+  .greetbox h2{
   	font-size: 60px;
   	letter-spacing: 1px;
   }
@@ -252,12 +274,6 @@ li {
     {
         background-color:#FA0;
     }
-  #top{
-
-  }
-  #bot{
-  	left: 8%;
-  }
   #navbar{
   	background-color: rgba(227,242,253,1);
   }
@@ -273,7 +289,7 @@ li {
   .about-bg{
   	margin: 0px;
   }
-  .titlehead{
+  .greetbox{
   	width: 100%
   }
   .projects{
@@ -282,7 +298,7 @@ li {
   .project-grid{
   	grid-template-rows: 600px 600px;
   }
-  .titlehead h2{
+  .greetbox h2{
   	font-size: 60px;
   	letter-spacing: 1px;
   }
