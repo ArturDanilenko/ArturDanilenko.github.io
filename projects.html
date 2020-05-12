@@ -1,0 +1,100 @@
+<html>
+	<head>
+
+		<title>Artur Danilenko</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<!--stylesheet-->
+		<link href="stylesheet.css" rel="stylesheet" type="text/css">
+
+		<!-- Fonts -->
+		
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+
+
+
+	</head>	
+	
+	<meta name="viewport" content="width=device-width, initial-scale = 1">
+
+<body>
+	
+	<!-- Navbar -->
+	<div class="nav-container">	
+		<nav class="navbar navbar-expand-sm fixed-top navbar-light" id="navbar">
+			<!--<a href="#" class="navbar-brand">Link</a>-->
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarMenu">
+				<ul class="navbar-nav">
+					<li class="nav-item" >
+						<a href="index.html" class="nav-link"> Home</a> 
+					</li>
+					<li class="nav-item">
+						<a href="about.html" class="nav-link shrink" > About</a> 
+					</li>
+					<li class="nav-item">
+						<a href="projects.html" class="nav-link"> Projects</a> 
+					</li>
+					<li class="nav-item">
+						<a href="#contacts" class="nav-link"> Contacts</a> 
+					</li>
+					<li class="nav-item">
+						<a href="Resume.pdf" class="nav-link"> Resume</a> 
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="https://github.com/ArturDanilenko"  target="_blank"><img src="images/github-icon.svg"  width=50px" height="50px" border="0" margin="10px" color="yellow" alt="Link to this page"></a>
+					</li>
+					<li class="navbar-item">
+						<a href="https://www.linkedin.com/in/artur-danilenko-217780178/" target="_blank"><img src="images/Linkedin_icon.svg"  width="50px" height="50px" border="0" alt="Link to this page"></a></h3></div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<!-- Name, Shadow and Main Background -->	
+	<div class="main-background">
+
+		<!-- Projects --> 
+
+		<div class="projects">
+			<h1 id="projects">Projects</h1><hr size="500" noshade>
+			<div class="project-grid">
+				<div  class="p1">
+					<a href="https://www.facebook.com/artur.danilenko" alt="Link to project 1" style="color: black"> Coin-picking Robot</a>
+					<p style="font-size: 14px">Objective: Given an enclosed area, robot is supposed to autonomously search for the coins and collect them once encountered.</p>
+					<p style="font-size: 14px">Implementation: I was responsible for the robot's software. Since we were working with a new microcontroller, one of the most challenging parts involved finding appropriate registers in order to set up IO pins with a desired functionality which involved going through extremely large datasheets. Secondly, interupts frequency was very sensitive to the amount of instructions processed upon being triggered, hence required very detailed and thorough optimization in order to function accurately. </p>
+				</div>
+				<div  class="p2">
+					<a href="https://www.facebook.com/artur.danilenko" alt="Link to project 2" style="color: black"> Reflow Oven Controller</a>
+					<p style="font-size: 14px">Objective: Program and assemle a controller which runs an oven through reflow soldering process with an ability to alter the temperature and time setting for each state.</p>
+					<p style="font-size: 14px">Implementation: Being assigned to software team, my task was to implement a specific state machine which controls oven using PWM module. The challenging aspect happened to be scheduling of the states and synchronization of multiple timers. The problem was solved by using a singular timer and making multiple sub-timers based on the main one. Once the project guidelines were met, code had to be heavily optimized as assembly structure didn't allow to be easily managed while the main goal isn't met. </p>
+				</div>
+				<div  class="p3">
+					<a href="https://www.facebook.com/artur.danilenko" alt="Link to project 3" style="color: black"> Line-following Robot</a>
+					<p style="font-size: 14px">Objective: Provided with a track, robot had to quickly follow a black line while appropriately reacting to obstacles.</p>
+					<p style="font-size: 14px">Implementation: Robot had five grayscale sensors that could accurately identify shade of gray that robot is passing if it's adequetly callibrated. This happened to be an issue as the sensitivity would fluctuate depending on the dirt level of the surface and battery life. To overcome this, we designed an algorithm which allowed robot to autocallibrate itself if placed on a trial track. This was accomplished by taking measurements of his actual readings and finding a mid-point between where he sensed a line and the rest of the environment.</p>
+				</div>
+				<div  class="p4">
+					<a href="#" alt="Link to project 3" style="color: black"> Coming Soon</a>
+					<p style="font-size: 14px"></p>
+					<p style="font-size: 14px"></p>		
+				</div>	
+			</div></div><br><br><br>
+	</div>	
+	<!--<body style = "background: url(images/POCO.jpg); background-size 100%;">
+-->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+		<script id="rendered-js" src="navbarhover.js"></script>
+
+</body>
+</html>

@@ -19,7 +19,9 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale = 1">
 
+<center>
 <body>
+	
 	<!-- Navbar -->
 	<div class="nav-container">	
 		<nav class="navbar navbar-expand-sm fixed-top navbar-light" id="navbar">
@@ -30,7 +32,7 @@
 			<div class="collapse navbar-collapse" id="navbarMenu">
 				<ul class="navbar-nav">
 					<li class="nav-item" >
-						<a href="#" class="nav-link"> Home</a> 
+						<a href="index.html" class="nav-link"> Home</a> 
 					</li>
 					<li class="nav-item">
 						<a href="about.html" class="nav-link shrink" > About</a> 
@@ -39,7 +41,7 @@
 						<a href="projects.html" class="nav-link"> Projects</a> 
 					</li>
 					<li class="nav-item">
-						<a href="about.html#contacts" class="nav-link"> Contacts</a> 
+						<a href="#contacts" class="nav-link"> Contacts</a> 
 					</li>
 					<li class="nav-item">
 						<a href="Resume.pdf" class="nav-link"> Resume</a> 
@@ -58,31 +60,47 @@
 	</div>
 
 	<!-- Name, Shadow and Main Background -->
-
-	<div class = "bgstuff">
-		<div class ="greetbox">
-			<h2 id="hi">Hi, </h2>
-			<h2 id="iam">I'm Artur,</h2>
-			<h2 id = "code">I write &lt;code></h2>
-		</div>
-		<div class ="navigator">
-			<h2 id = "about_nav">
-				<a href="about.html" alt="Move to about section" style="color:rgb(41, 39, 44)">About</a>
-			</h2>
-			<h2 id = "project_nav">
-				<a href="projects.html" alt="Move to projects section" style="color:rgb(41, 39, 44)">Projects</a>
-			</h2>
-			<h2 id = "resume_nav">
-				<a href="Resume.pdf" alt="Link to resume" style="color:rgb(41, 39, 44)">Resume</a>
-			</h2>
-		</div>
-	</div>
 	
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<div class="main-background">
 
-	<script id="rendered-js" src="navbarhover.js"></script>
+		<!-- About -->
+
+		<div class="about-bg">
+			<h1 id="about">About</h1><hr size="500" noshade>
+
+			<hr><p id="highlights"> Here are some of the things I can do: </p>
+			
+			<div class="about">
+				  <div class="d1">
+				  	<ul style="font-weight: 700; font-size: 26px;">Software</ul>
+				  	<p style="font-size:24px;">&bull; C &bull; C++ &bull; Java &bull; Python <br>&bull; JavaScript &bull; Bootstrap</p>
+				  </div>
+				  <div class="d1">
+				  	<ul style="font-weight: 700; font-size: 26px;">Electrical</ul>
+				  	<p style="font-size:24px;">&bull; Verilog &bull; ARM/8051 Assembly &bull; FPGA's <br>&bull; Circuit Designing / Analysis </p>
+				  </div>
+			</div> <br><br>
+		</div>
+
+		<!-- Projects --> 
+
+	</div>
+			<hr>
+			<a href="https://github.com/ArturDanilenko"  target="_blank" id="contacts"><img src="images/github-icon.svg" width=50px" height="50px" border="0" alt="Link to this page"></a>
+			<a href="https://www.linkedin.com/in/artur-danilenko-217780178/" target="_blank"><img src="images/Linkedin_icon.svg" width=50px" height="50px" border="0" alt="Link to this page"></a><br><br>
+			<p style="font-size: 24px">Phone number: (+1)778-885-6361 &emsp;&emsp; Email: danartur99@gmail.com</p>
+			<hr>
+
+			<hr>Copyright &copy 2019 Artur Danilenko<hr>
+	
+	<!--<body style = "background: url(images/POCO.jpg); background-size 100%;">
+-->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+		<script id="rendered-js" src="navbarhover.js"></script>
 
 </body>
+</center>
 </html>
