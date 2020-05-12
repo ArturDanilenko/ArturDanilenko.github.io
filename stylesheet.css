@@ -60,6 +60,7 @@ body{
 	padding-right: 12%;
 	padding-left: 12%;
 	margin: 0;
+	height: 100%
 }
 
 .bgstuff.container {
@@ -92,7 +93,7 @@ body{
 }
 
 .greetbox h2 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Courgette';
 	font-weight: 400;
 	position: absolute;
 	letter-spacing: 5px;
@@ -165,13 +166,23 @@ li {
 	font-weight: 50;
 }
 .about {
-    font-size: 25px;
+	font-size: 25px;
+	display: block;
     font-family:'Montserrat', sans-serif;
-    width: 100%;
+	width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 .about-bg{
+	background: rgba(240,240,240,0.85);
+	display: block;
+	box-shadow: 3px;
+	border-radius: 3px;
+	padding: 5px;
+	margin: 60px;
+}
+.summary{
+	display: none;
 	background: rgba(240,240,240,0.85);
 	box-shadow: 3px;
 	border-radius: 3px;
