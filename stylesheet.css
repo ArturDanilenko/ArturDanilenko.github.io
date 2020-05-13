@@ -22,6 +22,25 @@
 	position: absolute;
 	align-self: center;
 	overflow-y: scroll;
+	left: 3%;
+}
+.about-side-panel{
+	background: rgba(240,240,240,0.85);
+	display: inline-block;
+	box-shadow: 10px;
+	position: relative;
+	right: 2%;
+	border-radius: 10px;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+	width: 35%;
+	height: 80%;
+	margin: 4%;
+	margin-top: 5%;
+	position: absolute;
+	align-self: center;
+	right: 3%;
 }
 .bgstuff{
 	background-image: url("images/bg-dark.jpg");
@@ -43,6 +62,25 @@ body{
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
+.button {
+	background-color: rgb(181, 232, 255);
+	border: none;
+	color: rgb(0, 0, 0);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	border-radius: 12px;
+	border: 2px solid rgb(129, 129, 129);
+	position: relative;
+	bottom: 35%;
+}
+.button:hover {
+	background-color: rgb(150, 206, 231); 
+	color: black;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
 .caption{
 	position: relative;
 	display: inline-block;
@@ -53,6 +91,17 @@ body{
 }
 .contact-bg{
 	background-color: #FCE1A2;
+}
+.findme{
+	display: inline-flex;
+	position: relative;
+	display:inline-flex;
+	flex-flow: nowrap;
+	align-content: center;
+	width: 32%;
+	height: 12%;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }	
 h1{
 	font-family: 'Montserrat', sans-serif;
@@ -100,16 +149,12 @@ h3{
 	right: 10px;
 	margin: 5px;
 }
-
-
-
 .main-background{
 	background-image: url("images/bg-grey.png");
 	background-repeat: repeat;
 	margin: 0;
 	height: 100%
 }
-
 .greetbox{
 	background-color: rgba(20,20,20,0);
 	position: relative;
@@ -133,7 +178,6 @@ h3{
 	top: 24%;
 	margin: 0;
 }
-
 .greetbox h2 {
 	font-family: 'Courgette';
 	font-weight: 400;
@@ -212,20 +256,27 @@ h3{
     transform: translateY(-78%) !important;  
     background: black;     
 }
-
-
 li {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	font-weight: 50;
 }
 .summary{
-	display: none;
 	background: rgba(240,240,240,0.85);
-	box-shadow: 3px;
-	border-radius: 3px;
-	padding: 5px;
-	margin: 60px;
+	display: none;
+	box-shadow: 10px;
+	border-radius: 10px;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+	width: 35%;
+	height: 80%;
+	margin: 4%;
+	margin-top: 5%;
+	position: absolute;
+	align-self: center;
+	overflow-y: scroll;
+	left: 3%;
 }
 .d1{
 	text-align:center;
@@ -264,7 +315,6 @@ li {
 ::-webkit-scrollbar {
 	width: 10px;
 }
-
 /* Track */
 ::-webkit-scrollbar-track {
 background: #f1f1f1; 
