@@ -1,5 +1,5 @@
 function Divs1() {
-    for(let i = 1; i<13;i++){
+    for(let i = 1; i<16;i++){
         var bool = check_modals("modal"+i);
         if(bool)break;
     }
@@ -13,15 +13,16 @@ function Divs1() {
         now.fadeOut(speed);
         next.fadeIn(speed);
         var title = document.getElementById("title1");
-        if(title.innerHTML=='Piano Robot Controller')title.innerHTML = 'Reflow Oven Controller';
-        else if(title.innerHTML=='Reflow Oven Controller')title.innerHTML = 'Line Following Robot';
-        else if(title.innerHTML=='Line Following Robot')title.innerHTML = 'Coin Picking Robot';
+        if(title.innerHTML==='Piano Robot Controller')title.innerHTML = 'Reflow Oven Controller';
+        else if(title.innerHTML==='Reflow Oven Controller')title.innerHTML = 'Line Following Robot';
+        else if(title.innerHTML==='Line Following Robot')title.innerHTML = 'Connect 4 M';
+        else if(title.innerHTML === 'Connect 4 M')title.innerHTML = 'Coin Picking Robot'
         else title.innerHTML = 'Piano Robot Controller';
     }
 }
 
 function Divs2() {
-    for(let i = 1; i<13;i++){
+    for(let i = 1; i<16;i++){
         var bool = check_modals("modal"+i);
         if(bool)break;
     }
@@ -34,15 +35,16 @@ function Divs2() {
         now.fadeOut(speed);
         next.fadeIn(speed);
         var title = document.getElementById("title2");
-        if(title.innerHTML=='Reflow Oven Controller')title.innerHTML = 'Line Following Robot';
-        else if(title.innerHTML=='Line Following Robot')title.innerHTML = 'Coin Picking Robot';
-        else if(title.innerHTML=='Coin Picking Robot')title.innerHTML = 'Piano Robot Controller';
+        if(title.innerHTML==='Reflow Oven Controller')title.innerHTML = 'Line Following Robot';
+        else if(title.innerHTML==='Line Following Robot')title.innerHTML = 'Connect 4 M';
+        else if(title.innerHTML==='Connect 4 M')title.innerHTML = 'Coin Picking Robot';
+        else if(title.innerHTML === 'Coin Picking Robot') title.innerHTML = 'Piano Robot Controller';
         else title.innerHTML = 'Reflow Oven Controller';
     }
 }
 
 function Divs3() {
-    for(let i = 1; i<13;i++){
+    for(let i = 1; i<16;i++){
         var bool = check_modals("modal"+i);
         if(bool)break;
     }
@@ -55,9 +57,10 @@ function Divs3() {
         now.fadeOut(speed);
         next.fadeIn(speed);
         var title = document.getElementById("title3");
-        if(title.innerHTML=='Line Following Robot')title.innerHTML = 'Coin Picking Robot';
-        else if(title.innerHTML=='Coin Picking Robot')title.innerHTML = 'Piano Robot Controller';
-        else if(title.innerHTML=='Piano Robot Controller')title.innerHTML = 'Reflow Oven Controller';
+        if(title.innerHTML==='Line Following Robot')title.innerHTML = 'Connect 4 M';
+        else if(title.innerHTML==='Connect 4 M')title.innerHTML = 'Coin Picking Robot';
+        else if(title.innerHTML==='Coin Picking Robot')title.innerHTML = 'Piano Robot Controller';
+        else if(title.innerHTML==='Piano Robot Controller')title.innerHTML = 'Reflow Oven Controller';
         else title.innerHTML = 'Line Following Robot';
     }
 }

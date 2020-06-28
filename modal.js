@@ -30,3 +30,6 @@ set_modal("modal9","modal_button9","span_close9");
 set_modal("modal10","modal_button10","span_close10");
 set_modal("modal11","modal_button11","span_close11");
 set_modal("modal12","modal_button12","span_close12");
+set_modal("modal13","modal_button13","span_close13");
+set_modal("modal14","modal_button14","span_close14");
+set_modal("modal15","modal_button15","span_close15");
